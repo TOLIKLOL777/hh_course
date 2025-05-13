@@ -1,0 +1,36 @@
+from unittest.mock import Mock, patch
+
+from src.external_api import API_HH
+
+
+@patch("src.external_api.requests.get")
+def test_get_vacancies_code400(mock_get):
+    mock_response = Mock()
+    mock_response.status_code = 400
+    mock_response.json.return_value = {"items": [{"name": "Python Developer"}]}
+    mock_get.return_value = mock_response
+
+    test_api = API_HH()
+    result = test_api._get_vacancies("Python", top_N=1)
+
+    mock_get.assert_called_once_with(
+        url="https://api.hh.ru/vacancies", params={"text": "Python", "per_page": 1, "search_field": "name"}
+    )
+    assert result == {"items": [{"name": "Python Developer"}]}
+
+
+@patch("src.external_api.requests.get")
+def test_get_vacancies_code500(mock_get, capsys):
+    mock_response = Mock()
+    mock_response.status_code = 500
+    mock_response.json.return_value = None
+    mock_get.return_value = mock_response
+
+    test_api = API_HH()
+    test_api._get_vacancies("Python", top_N=1)
+
+    mock_get.assert_called_once_with(
+        url="https://api.hh.ru/vacancies", params={"text": "Python", "per_page": 1, "search_field": "name"}
+    )
+    captured = capsys.readouterr()
+    assert captured.out == "Ошибка при работе с API запросом ошибка: 500\n"
