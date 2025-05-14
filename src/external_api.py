@@ -24,7 +24,7 @@ class API_HH(BaseAPI):
         """Возвращает вакансии по поиску и сколько первых вакансий показать"""
         params = {"text": desc, "per_page": top_N, "search_field": "name"}
         vacancies = requests.get(url=self.__url, params=params)
-        if vacancies.status_code != 400:
+        if vacancies.status_code != 200:
             print(f"Ошибка при работе с API запросом ошибка: {vacancies.status_code}")
         else:
             return vacancies.json()
