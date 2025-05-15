@@ -3,4 +3,5 @@ max-line-length = 130
 exclude =
     .git,
     __pycache__,
-    .idea
+    .idea,
+    .venv

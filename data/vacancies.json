@@ -1,183 +1,93 @@
 {
   "items": [
     {
-      "name": "Тестировщик комфорта квартир",
-      "url": "https://hh.ru/vacancy/93353083",
-      "salary_from": 350000,
-      "salary_to": 450000,
-      "snippet": {
-        "requirement": "Занимать активную жизненную позицию, уметь активно танцевать и громко петь. Обладать навыками коммуникации, чтобы налаживать добрососедские отношения. Обладать системным мышлением..."
-      }
-    },
-    {
-      "name": "Удаленный диспетчер чатов (в Яндекс)",
-      "url": "https://hh.ru/vacancy/92223756",
-      "salary_from": 30000,
-      "salary_to": 44000,
-      "snippet": {
-        "requirement": "Способен работать в команде. Способен принимать решения самостоятельно. Готов учиться и узнавать новое. Опыт работы в колл-центре или службе..."
-      }
-    },
-    {
-      "name": "Удаленный специалист службы поддержки (в Яндекс)",
-      "url": "https://hh.ru/vacancy/92223870",
-      "salary_from": 30000,
-      "salary_to": 44000,
-      "snippet": {
-        "requirement": "Способен работать в команде. Способен принимать решения самостоятельно. Готов учиться и узнавать новое. Опыт работы в колл-центре или службе..."
-      }
-    },
-    {
-      "name": "Менеджер по продажам недвижимости",
-      "url": "https://hh.ru/vacancy/92752367",
-      "salary_from": 500000,
-      "salary_to": 1000000,
-      "snippet": {
-        "requirement": "Отличные коммуникативные навыки, способность найти подход к каждому клиенту. Навыки проведения деловых переговоров. Наличие амбициозных целей и успешный опыт их..."
-      }
-    },
-    {
-      "name": "Менеджер чатов, удалённо (в Яндекс)",
-      "url": "https://hh.ru/vacancy/92223673",
-      "salary_from": 30000,
-      "salary_to": 44000,
-      "snippet": {
-        "requirement": "Способен работать в команде. Способен принимать решения самостоятельно. Готов учиться и узнавать новое. Опыт работы в колл-центре или службе..."
-      }
-    },
-    {
-      "name": "Бортпроводник",
-      "url": "https://hh.ru/vacancy/93209001",
+      "name": "Java-разработчик младшего/среднего уровня (junior/middle Java developer)",
+      "alternate_url": "https://hh.ru/vacancy/120556189",
       "salary_from": 0,
       "salary_to": 0,
       "snippet": {
-        "requirement": "Образование: среднее полное (11 классов), среднее специальное, высшее. Обязательное владение узбекским, русским и английским языками. Готовность работать согласно графику полетов. "
+        "requirement": "Уверенное знание <highlighttext>Java</highlighttext> SE, понимание принципов ООП и паттернов проектирования. Знание SQL, понимание принципов работы реляционных СУБД. Умение пользоваться сиcтемами..."
       }
     },
     {
-      "name": "Наборщик текста/верстальщик",
-      "url": "https://hh.ru/vacancy/92195003",
-      "salary_from": 800,
+      "name": "Java-разработчик",
+      "alternate_url": "https://hh.ru/vacancy/120575486",
+      "salary_from": 0,
       "salary_to": 0,
       "snippet": {
-        "requirement": "уверенное владение ПЭВМ (программы OCR - FineReader и аналоги, глубокое знание функций MS Word - Вставка, Макет, Конструктор таблиц). - возможность и готовность..."
+        "requirement": "Опыт коммерческой разработки от 3 лет. Отличные знания <highlighttext>Java</highlighttext> 11 и выше. Опыт использования Spring, SpringBoot и Hibernate. "
       }
     },
     {
-      "name": "Менеджер по продажам (МЕРКАТОР)",
-      "url": "https://hh.ru/vacancy/93166058",
-      "salary_from": 160000,
+      "name": "Бэкенд разработчик (Java)",
+      "alternate_url": "https://hh.ru/vacancy/120415050",
+      "salary_from": 0,
       "salary_to": 0,
       "snippet": {
-        "requirement": "Опыт в продажах. Опыт работы с клиентами. Умение проводить переговоры. Мобильность."
+        "requirement": "Экспертные знания: Умение работать в команде, давать и принимать конструктивную обратную связь. Желание постоянно совершенствоваться в профессии и изучать новые..."
       }
     },
     {
-      "name": "Оператор call-центра",
-      "url": "https://hh.ru/vacancy/91178034",
-      "salary_from": 3500000,
-      "salary_to": 20000000,
-      "snippet": {
-        "requirement": "Пожалуйста ознакомьтесь внимательно. Грамотная речь. Знание узбекского и русского языков. Отличное знание ПК. Коммуникабельность. Эмоциональная устойчивость. Вежливость, грамотность, любознательность, ответственность..."
-      }
-    },
-    {
-      "name": "Менеджер по работе с клиентами",
-      "url": "https://hh.ru/vacancy/92818620",
-      "salary_from": 418500,
-      "salary_to": 1000000,
-      "snippet": {
-        "requirement": "Не важно есть опыт у тебя или нет, я могу точно сказать, что ты сможешь зарабатывать в этой сфере!!! "
-      }
-    },
-    {
-      "name": "Стажер",
-      "url": "https://hh.ru/vacancy/93119114",
-      "salary_from": 2000000,
-      "salary_to": 2000000,
-      "snippet": {
-        "requirement": "Если вы , в том числе, студент по направлению IT или начинающий специалист, окончивший вуз, Вы можете принять участие в отборе..."
-      }
-    },
-    {
-      "name": "Хозработник",
-      "url": "https://hh.ru/vacancy/92405436",
-      "salary_from": 65000,
-      "salary_to": 70000,
-      "snippet": {
-        "requirement": null
-      }
-    },
-    {
-      "name": "Продавец-консультант",
-      "url": "https://hh.ru/vacancy/87122346",
-      "salary_from": 70000,
-      "salary_to": 110000,
-      "snippet": {
-        "requirement": "Опыт работы не требуется, мы всему научим! Опыт работы в сетевых розничных магазинах приветствуется."
-      }
-    },
-    {
-      "name": "Менеджер по туризму",
-      "url": "https://hh.ru/vacancy/77069438",
-      "salary_from": 180000,
-      "salary_to": 200000,
-      "snippet": {
-        "requirement": "умение урегулировать форс-мажорные ситуации. - умение работать в системе Битрикс для ведения процесса бронирования. Требования: - опыт работы в туризме обязателен. - "
-      }
-    },
-    {
-      "name": "Junior back-end developer",
-      "url": "https://hh.ru/vacancy/92210019",
-      "salary_from": 4000000,
-      "salary_to": 8000000,
-      "snippet": {
-        "requirement": "Высшее профильное образование. Свободное владение русским и узбекским языками. Java Core. Spring/Spring Boot. Знание ООП и структуры данных. "
-      }
-    },
-    {
-      "name": "Менеджер по сопровождению закупок (контрольно-измерительное оборудование)",
-      "url": "https://hh.ru/vacancy/93523045",
-      "salary_from": 90000,
+      "name": "Backend - разработчик (Java)",
+      "alternate_url": "https://hh.ru/vacancy/120586148",
+      "salary_from": 0,
       "salary_to": 0,
       "snippet": {
-        "requirement": "Высшее или средне-специальное образование. Опыт работы на позиции менеджер по закупкам от 3 лет. Знание программы 1С (Управление..."
+        "requirement": "Опыт коммерческой разработки на <highlighttext>Java</highlighttext> от 3 лет. Hibernate или аналоги. Spring (Data, Security, RestFull), SQL, Git. Опыт написания тестов..."
       }
     },
     {
-      "name": "Водитель-помощник",
-      "url": "https://hh.ru/vacancy/93514566",
-      "salary_from": 300000,
+      "name": "Java Spring Boot разработчик",
+      "alternate_url": "https://hh.ru/vacancy/120583141",
+      "salary_from": 0,
       "salary_to": 0,
       "snippet": {
-        "requirement": "Знание английского языка (B2). Хорошие знание города ПДД. Готовность к командировкам, в том числе за границу. Пунктуальность. "
+        "requirement": "Знание и применение Mybatis. Знание и применение System design. Профилирование <highlighttext>Java</highlighttext> (visualvm, async-profiler, jfr). Оптимизация запросов postgres. "
       }
     },
     {
-      "name": "Машинист буровой установки RU-75",
-      "url": "https://hh.ru/vacancy/93254580",
-      "salary_from": 228000,
-      "salary_to": 228000,
-      "snippet": {
-        "requirement": "Квалификационное удостоверение машиниста буровой установки 5 разряда. Опыт работы на буровой установки RU-75., LM-75. Проведение текущих аварийных и..."
-      }
-    },
-    {
-      "name": "Семейный водитель",
-      "url": "https://hh.ru/vacancy/93545071",
-      "salary_from": 120000,
-      "salary_to": 120000,
-      "snippet": {
-        "requirement": "опыт работы профессиональным водителем от 10 лет, семейным водителем - от 5 лет. - наличие рекомендательных писем (обязательно). - спокойное,комфортное и безопасное..."
-      }
-    },
-    {
-      "name": "Менеджер по работе с клиентами (МЕРКАТОР)",
-      "url": "https://hh.ru/vacancy/93161709",
-      "salary_from": 100000,
+      "name": "Java-разработчик (middle)",
+      "alternate_url": "https://hh.ru/vacancy/120429363",
+      "salary_from": 0,
       "salary_to": 0,
       "snippet": {
-        "requirement": "Опыт в продажах или с клиентами. Грамотная речь. Активность. Коммуникабельность."
+        "requirement": "Проектирование интеграционного взаимодействия систем. <highlighttext>Java</highlighttext> 8+. Spring Framework (включая Spring Boot). PostgreSQL, Oracle. Docker. Hibernate. Git. Знание технологий apache..."
+      }
+    },
+    {
+      "name": "Java-разработчик",
+      "alternate_url": "https://hh.ru/vacancy/120571377",
+      "salary_from": 130000,
+      "salary_to": 150000,
+      "snippet": {
+        "requirement": "Опыт коммерческой бэкенд-разработки на <highlighttext>Java</highlighttext> от года. Хорошее знание <highlighttext>Java</highlighttext> Core. Умение проводить code-review и отбраковывать некачественный код. "
+      }
+    },
+    {
+      "name": "Junior Java Developer",
+      "alternate_url": "https://hh.ru/vacancy/120575859",
+      "salary_from": 75000,
+      "salary_to": 0,
+      "snippet": {
+        "requirement": "Знание языка <highlighttext>Java</highlighttext>. Опыт работы с системой контроля версий GIT. Знание фреймворка Spring и контейнеризации с помощью Docker. "
+      }
+    },
+    {
+      "name": "Java developer",
+      "alternate_url": "https://hh.ru/vacancy/120403629",
+      "salary_from": 0,
+      "salary_to": 0,
+      "snippet": {
+        "requirement": "Что ты будешь делать. Имеешь опыт в роли разработчика ПО на <highlighttext>Java</highlighttext> от 3-х лет. Имеешь опыт разработки REST..."
+      }
+    },
+    {
+      "name": "Java/Kotlin-разработчик",
+      "alternate_url": "https://hh.ru/vacancy/120584585",
+      "salary_from": 0,
+      "salary_to": 0,
+      "snippet": {
+        "requirement": "Коммерческий опыт на <highlighttext>Java</highlighttext>\\Kotlin от 3 лет. Знание <highlighttext>Java</highlighttext> Core. Опыт работы с ORM (Hibernate/Jooq). Умение писать и..."
       }
     }
   ]

@@ -31,7 +31,7 @@ pytest-cov = "^6.1.1"
 
 [tool.black]
 line-length = 119
-exclude = ".git"
+exclude = ".git .venv"
 
 [tool.isort]
 profile = "black"

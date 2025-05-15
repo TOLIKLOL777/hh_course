@@ -11,9 +11,10 @@ def test_get_vacancies_code200(mock_get):
     mock_get.return_value = mock_response
 
     test_api = API_HH()
-    result = test_api._get_vacancies("Python", top_N=1)
+    assert test_api._BaseAPI__connect() == True
+    result = test_api.get_vacancies("Python", top_N=1)
 
-    mock_get.assert_called_once_with(
+    mock_get.assert_called_with(
         url="https://api.hh.ru/vacancies", params={"text": "Python", "per_page": 1, "search_field": "name"}
     )
     assert result == {"items": [{"name": "Python Developer"}]}
@@ -27,10 +28,10 @@ def test_get_vacancies_code403(mock_get, capsys):
     mock_get.return_value = mock_response
 
     test_api = API_HH()
-    test_api._get_vacancies("Python", top_N=1)
+    test_api.get_vacancies("Python", top_N=1)
 
-    mock_get.assert_called_once_with(
-        url="https://api.hh.ru/vacancies", params={"text": "Python", "per_page": 1, "search_field": "name"}
+    mock_get.assert_called_with(
+        "https://api.hh.ru/vacancies", params={"text": "Python", "per_page": 1, "search_field": "name"}
     )
     captured = capsys.readouterr()
-    assert captured.out == "Ошибка при работе с API запросом ошибка: 403\n"
+    assert captured.out == "Сервер не доступен ошибка: 403\n"
