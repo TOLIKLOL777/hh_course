@@ -31,4 +31,4 @@ pip install -r requirements.txt
 
 8 тестов проверяются успешно в которых описаны разные случаи
 
-Code coverage 100%
+Code coverage 98%

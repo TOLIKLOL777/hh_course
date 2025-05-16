@@ -48,11 +48,22 @@ class File_Save(BaseSave):
         return file
 
     def save_to_file(self):
-        """Метод для сохранения информации в файл json"""
+        """Метод для сохранения информации в файл json без перезаписывания и дублирования"""
         base_dir = os.path.dirname(os.path.abspath(__file__))
         data_dir = os.path.join(base_dir, "..", "data")
         file_path = os.path.join(data_dir, f"{self.__name}.json")
-        new_data = {"items": []}
+        if os.path.exists(file_path):
+            try:
+                old_data = self.read_file()
+                if not isinstance(old_data, dict) or 'items' not in old_data:
+                    old_data = {"items": []}
+            except json.JSONDecodeError:
+                old_data = {"items": []}
+        else:
+            old_data = {"items": []}
+
+        old_vacancies = {(item["name"], item["alternate_url"]) for item in old_data['items']}
+        new_data = []
         for i in self.data["items"]:
             salary_from = 0
             salary_to = 0
@@ -62,10 +73,15 @@ class File_Save(BaseSave):
                 salary_to = i["salary"].get("to") or 0
 
             vacancy = Vacancy(i["name"], i["alternate_url"], salary_from, salary_to, i["snippet"]["requirement"])
-            new_data["items"].append(vacancy.main_data())
+            key = (vacancy.name,vacancy.url)
+            if key not in old_vacancies:
+                new_data.append(vacancy.main_data())
+                old_vacancies.add(key)
+
+        old_data['items'].extend(new_data)
 
         with open(file_path, "w", encoding="utf-8") as f:
-            json.dump(new_data, f, ensure_ascii=False, indent=2)
+            json.dump(old_data, f, ensure_ascii=False, indent=2)
 
     def delete_vacancies(self):
         """Метод удаляющий все данные из json файла"""
